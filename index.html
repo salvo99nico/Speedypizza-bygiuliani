@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Speedy Pizza by Giuliani | Pizzeria d'asporto e consegna a Villastanza, Parabiago</title>
+<meta name="description" content="Pizza artigianale con farina tipo 1 macinata a pietra. Asporto, consegna a domicilio a Villastanza e Parabiago, Deliveroo e Just Eat. Chiama 0331 553188.">
+<meta name="theme-color" content="#0D0D0D">
+<meta property="og:title" content="Speedy Pizza by Giuliani">
+<meta property="og:description" content="La vera pizza artigianale, calda e veloce a casa tua. Villastanza di Parabiago (MI).">
+<meta property="og:image" content="img/locale.jpg">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Pizzeria","name":"Speedy Pizza by Giuliani","telephone":"+390331553188","image":"img/locale.jpg",
+"address":{"@type":"PostalAddress","streetAddress":"Via Paolo Mantegazza, 3","addressLocality":"Villastanza di Parabiago","postalCode":"20015","addressRegion":"MI","addressCountry":"IT"},
+"openingHours":["Tu-Sa 11:00-14:00","Tu-Sa 17:30-21:30","Su 17:30-21:30"],"servesCuisine":"Pizza"}
+</script>
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="brand" aria-label="Speedy Pizza by Giuliani"><img src="img/logo.png" alt="Speedy Pizza by Giuliani" width="170" height="70"></a>
+  <button class="burger" aria-label="Apri il menù di navigazione" aria-expanded="false">☰</button>
+  <nav id="links">
+    <a href="#menu">Menù</a><a href="#servizi">Servizi</a><a href="#chi-siamo">Chi Siamo</a><a href="#contatti">Contatti &amp; Dove Siamo</a>
+    <a class="btn btn-y" href="tel:0331553188">Chiama 0331 553188</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <h1>La vera pizza artigianale, calda e veloce a casa tua.</h1>
+    <p>Impasto leggero e altamente digeribile, con farina tipo 1 macinata a pietra. Scegli l'asporto, la consegna a domicilio con i nostri fattorini a Villastanza e Parabiago, ordina su Deliveroo e Just Eat, oppure gustala nei nostri posti a sedere in loco.</p>
+    <div class="cta">
+      <a class="btn btn-y" href="tel:0331553188">Chiama per Ordinare</a>
+      <a class="btn btn-o" href="https://deliveroo.it" target="_blank" rel="noopener">Ordina su Deliveroo</a>
+      <a class="btn btn-o" href="https://www.justeat.it" target="_blank" rel="noopener">Ordina su Just Eat</a>
+    </div>
+    <a class="down" href="#menu">Sfoglia il Menù ↓</a>
+    <p id="open-now" class="badge" hidden></p>
+  </div>
+</section>
+
+<section id="servizi" class="sec">
+  <div class="wrap">
+    <h2>I nostri servizi</h2>
+    <div class="cards">
+      <article class="card"><span class="ico">🛵</span><h3>Consegna a Domicilio</h3><p>Consegniamo direttamente a casa tua con i nostri fattorini (prenotando telefonicamente) oppure comodamente tramite le piattaforme Deliveroo e Just Eat.</p></article>
+      <article class="card"><span class="ico">🥡</span><h3>Asporto Veloce</h3><p>Ordina al telefono allo 0331 553188 e passa a ritirare la tua pizza calda appena sfornata. Disponibile anche l'amato formato "Pizza Famiglia" da condividere.</p></article>
+      <article class="card"><span class="ico">🍕</span><h3>Mangia da Noi</h3><p>Vuoi gustare la pizza caldissima sul momento? Il locale dispone di alcuni comodi posti a sedere per mangiare in loco.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="sec alt">
+  <div class="wrap">
+    <h2>Il nostro menù</h2>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Cerca una pizza o un ingrediente (es. zola, speck…)" aria-label="Cerca nel menù">
+      <div id="tabs" class="tabs" role="tablist"></div>
+    </div>
+    <div id="menu-list"></div>
+    <p id="empty" class="muted" hidden>Nessuna pizza trovata. Prova con un altro ingrediente.</p>
+    <div class="notes">
+      <p><strong>Intolleranze:</strong> mozzarella senza lattosio disponibile su richiesta. Comunica sempre eventuali allergie al momento dell'ordine.</p>
+      <p><strong>Ingredienti:</strong> farina di tipo 1 macinata a pietra, pomodoro pelato, olio extra vergine d'oliva. L'olio di frittura è indicato in sede.</p>
+      <p>* Prodotti decongelati. <span id="legend"></span></p>
+    </div>
+  </div>
+</section>
+
+<section id="chi-siamo" class="sec">
+  <div class="wrap about">
+    <img src="img/antonio-giuliani.jpg" alt="Antonio Giuliani, pizzaiolo di Speedy Pizza, davanti al menù" loading="lazy" width="450" height="450">
+    <div>
+      <h2>Chi siamo</h2>
+      <p>Speedy Pizza by Giuliani nasce a Villastanza con un'idea semplice: fare bene la pizza e portarla ancora calda. Il pizzaiolo Antonio Giuliani prepara impasti leggeri e altamente digeribili, con farina tipo 1 macinata a pietra, cotti nel forno a legna in rame del locale.</p>
+      <p>Scegliamo con cura gli ingredienti e curiamo direttamente il servizio: un team cordiale e puntuale, che ritiri al banco o consegni a casa.</p>
+      <img class="wide" src="img/locale.jpg" alt="Il forno e il banco di Speedy Pizza" loading="lazy" width="900" height="600">
+    </div>
+  </div>
+</section>
+
+<section id="contatti" class="sec alt">
+  <div class="wrap two">
+    <div>
+      <h2>Dove siamo e orari</h2>
+      <p><strong>Indirizzo</strong><br>Via Paolo Mantegazza, 3<br>20015 Villastanza di Parabiago (MI)</p>
+      <p><strong>Telefono</strong><br><a href="tel:0331553188">0331 553188</a></p>
+      <table class="hours"><tbody>
+        <tr data-d="2,3,4,5,6"><th>Martedì – Sabato</th><td>11:00 – 14:00 · 17:30 – 21:30</td></tr>
+        <tr data-d="0"><th>Domenica</th><td>17:30 – 21:30</td></tr>
+        <tr data-d="1"><th>Lunedì</th><td>Chiuso</td></tr>
+      </tbody></table>
+      <a class="btn btn-o" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Via+Paolo+Mantegazza+3+Villastanza+Parabiago">Indicazioni stradali</a>
+    </div>
+    <iframe title="Mappa di Speedy Pizza" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Via+Paolo+Mantegazza+3+Villastanza+Parabiago&output=embed"></iframe>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><img src="img/logo.png" alt="Speedy Pizza by Giuliani" width="150" height="62"><p class="muted">Via Paolo Mantegazza, 3 · 20015 Villastanza di Parabiago (MI)<br>Tel. <a href="tel:0331553188">0331 553188</a></p></div>
+    <div><a href="https://deliveroo.it" target="_blank" rel="noopener">Deliveroo</a><br><a href="https://www.justeat.it" target="_blank" rel="noopener">Just Eat</a></div>
+    <div><a href="privacy.html">Privacy Policy</a><br><a href="cookie.html">Cookie Policy</a><p class="muted">P.IVA: [inserire]</p></div>
+  </div>
+  <p class="copy muted">© <span id="y"></span> Speedy Pizza by Giuliani</p>
+</footer>
+<a class="callbar" href="tel:0331553188">📞 Chiama 0331 553188</a>
+<script src="js/menu-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
